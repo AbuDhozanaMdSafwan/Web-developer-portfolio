@@ -105,6 +105,10 @@ main {
 
 }
 
+main section{
+    margin-top: 130px;
+}
+
 /* about subsection */
 .about {
     border-radius: 10px;
@@ -120,6 +124,7 @@ main {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    margin-bottom: 5px;
 
 
 }
@@ -128,6 +133,7 @@ main {
     color: var(--dark-03, #757575);
     text-align: center;
     font-size: 18px;
+    display: flex;
 
 }
 
@@ -152,4 +158,48 @@ main {
 
 .info-description {
     margin-top: 5px;
+}
+
+#what-i-do-dec {
+    margin-top: 0px;
+    padding: 30px 150px;
+
+
+}
+
+/* skils style */
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+
+}
+
+.skill {
+    
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(243, 5, 5, 0.06);
+    flex-shrink: 0;
+    padding: 30px;
+
+}
+
+.skill-title {
+    color: var(--dark-01, #181818);
+    font-size: 20px;
+    font-weight: 700px;
+
+}
+
+.skill-description {
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    flex-shrink: 0;
 }
