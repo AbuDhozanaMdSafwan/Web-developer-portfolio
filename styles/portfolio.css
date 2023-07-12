@@ -105,7 +105,7 @@ main {
 
 }
 
-main section{
+main section {
     margin-top: 130px;
 }
 
@@ -176,7 +176,7 @@ main section{
 }
 
 .skill {
-    
+
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(243, 5, 5, 0.06);
@@ -202,4 +202,60 @@ main section{
     width: 200px;
     flex-direction: column;
     flex-shrink: 0;
+}
+
+/* resume style */
+.resume-column-title {
+    color: var(--dark-02, #474747);
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 70px;
+
+}
+
+.resume-item {
+    background: var(--white-color, #FFF);
+
+}
+
+.resume-item-title {
+    color: var(--dark-02, #474747);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10PX;
+
+}
+
+.resume-item-istitute {
+    color: var(--dark-03, #757575);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0PX;
+    margin-bottom: 20PX;
+}
+
+.resume-item-description {
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.resume-container hr {
+    width: 558px;
+    height: 1px;
+    background: #D1D1D1;
+
+}
+#download-button{
+   margin-left: 470px;
+    margin-top: 50px;
+
 }
